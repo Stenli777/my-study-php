@@ -3,7 +3,7 @@
 function reverseWords($str) {
 
     $arr = explode(" ",$str);
-    foreach ($arr as $k => $v)
+    foreach ($arr as $v)
         $arr1[] = strrev($v);
 
     return implode(" ",$arr1);
